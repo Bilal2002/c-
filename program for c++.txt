@@ -1,0 +1,55 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+int main(){
+int number[5];
+int i=0;
+cout<<"enter five number:";
+while(i<5){
+
+    cin>>number[i];
+i++;
+}
+int x=0;
+while(x<5){
+
+    cout<<number[x]<<endl;
+    x++;
+int z=0;
+while(z<x){
+
+    cout<<" ";
+z++;
+}
+
+
+
+}
+
+int sum=number[0];
+
+for(int b=0;b<5;b++){
+
+    if(sum<number[b]){
+
+        sum=number[b];
+    }
+}
+cout<<"   the large number is:"<<sum<<endl;
+
+
+
+int s=number[0];
+
+for(int c=0;c<5;c++){
+
+    if(s>number[c]){
+
+        s=number[c];
+    }
+}
+cout<<"\tthe smal number is:"<<s<<endl;
+
+
+  return 0;
+        }
